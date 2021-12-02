@@ -1,0 +1,107 @@
+.content {
+    position: relative;
+    z-index: 3;
+}
+
+#no {
+    position: absolute;
+    display: inline-block;
+    left: 35%;
+    top: 40vh;
+    -webkit-transition: all 0.1s ease-out;
+    background-color:red;
+    border-color:black;
+}
+
+#yes {
+    position: absolute;
+    display: inline-block;
+    left: 70%;
+    top: 40vh;
+    -webkit-transition: all 0.3s ease-out;
+    background-color:cyan;
+    border-color:black;
+}
+
+#bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .8;
+    /* height: 100vh; */
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-image: url(../img/bg.webp);
+    background-size: cover;
+    background-position: 50%;
+    -webkit-filter: blur(4px);
+}
+
+.swal2-image {
+    object-fit: contain;
+}
+
+.swal2-title,
+.swal2-content {
+    color: black !important;
+}
+
+.swal2-popup {
+    border-radius: 15px !important;
+}
+
+header h2 {
+    font-family: 'Calibri';
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+header h4 {
+    font-family: 'Calibri';
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+@media only screen and (max-width: 500px) {
+    header h2 {
+        font-family: 'Calibri';
+        font-size: 45px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    header h4 {
+        font-family: 'Calibri';
+        text-align: center;
+        padding: 15px;
+    }
+    #no {
+        position: absolute;
+        display: inline-block;
+        left: 7%;
+        top: 40vh;
+        font-size: 14px;
+        padding: 3px;
+        -webkit-transition: all 0.1s ease-out;
+        color: black;
+    }
+    #yes {
+        position: absolute;
+        display: inline-block;
+        left: 58%;
+        top: 40vh;
+        font-size: 14px;
+        padding: 3px;
+        -webkit-transition: all 0.3s ease-out;
+        color: black;
+    }
+}
+
+.swal2-backdrop-show {
+    background-size: 200px 100px !important;
+}
