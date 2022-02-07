@@ -4,7 +4,7 @@ const CONFIG = {
     introDesc: `MONG LÀ TỤI MÀY KHÔNG BỎ CUỘC =)`,
     btnIntro: 'OKE BRO',
     title: 'THÁCH CHÚNG MÀY BẤM ĐƯỢC NÚT MÀU ĐỎ',
-    desc: 'BẤM TRÚNG ĐI HỌC LẠI TEO CHO 100K',
+    desc: 'BẤM TRÚNG ĐI HỌC TEO CHO 100K',
     btnYes: 'THUA LÀM CHÓ =)',
     btnNo: '100k NÈ',
     question: 'HIHI THUA GÒI HẺ =)',
